@@ -76,3 +76,9 @@ button[disabled] {
   color: #666666;
   cursor: not-allowed;
 }
+
+@media (max-width:500px){
+  fieldset {
+    width: 330px;
+  }
+}
