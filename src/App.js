@@ -103,7 +103,7 @@ function App() {
             <label>
               Role <sup>*</sup>
             </label>
-            <select onChange={e => setRole(e.currentTarget.value)}>
+            <select value={role} onChange={e => setRole(e.currentTarget.value)}>
               <option value="role">Role</option>
               <option
                 value="individual"
